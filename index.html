@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+        <nav class="navbar navbar-inverse" id="myPage">
+
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Logo</a>
+                </div>
+                <ul class="nav navbar-nav right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="index.html">Page 1</a></li>
+                    <li><a href="second.html">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <form role="search" class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" placeholder="Search" class="form-control">
+                        </div>
+
+                    </form>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                </ul>
+        </nav>
+                <div class="container-fluid">
+            <div class="row first">
+            <div class="col-md-2 col-sm-4 menu">
+                <div class="btn-group-vertical text-center">
+                   <button type="button" class="btn btn-default">Paris</button>
+                    <button type="button" class="btn btn-default">New York</button>
+                    <button type="button" class="btn btn-default">San Francisco</button>
+                    <button type="button" class="btn btn-default">Venice</button>
+                    <button type="button" class="btn btn-default">Milan</button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            Countries <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">America</a></li>
+                            <li><a href="#">Europe</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <div class="row two">
+                    <div class="col-md-8 col-sm-8 settings">
+                    <h3 class="text-center france">First time France: where to go and what to do </h3>
+                    <p class="text-center france">France is the world’s top tourist destination and for good reason. <br>
+                        There's a lot packed into just one country – artistic and architectural masterpieces,<br>
+                        remarkable museums and natural landscapes, and a history harking back far beyond the Romans.<br> Remember to book your tickets!</p>
+                    </div>
+                </div>
+            <div class="col-md-10 col-sm-8 settings">
+                <nav aria-label="...">
+                    <ul class="pagination">
+                        <li><a href="index.html" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                        <li class="active"><a href="index.html">1 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="second.html">2 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                        <li><a href="second.html" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+                <div class="row text-center">
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="images/paris.jpg" alt="Paris">
+                        <p><strong>Paris</strong></p>
+                        <p>Fri. 27 November 2017</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="images/newyork.jpg" alt="New York">
+                        <p><strong>New York</strong></p>
+                        <p>Sat. 28 November 2017</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="images/sanfran.jpg" alt="San Francisco">
+                        <p><strong>San Francisco</strong></p>
+                        <p>Sun. 29 November 2017</p>
+                        <button class="btn">Buy Tickets</button>
+                    </div>
+                </div>
+
+
+                </div>
+                <!-- Footer -->
+                <footer class="text-center">
+                    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                    </a><br><br>
+                    <p>Made via Bootstrap</p>
+                </footer>
+            </div>
+        </div>
+          <!--<script src="js/bootstrap.min.js"></script>-->
+</body>
+</html>
